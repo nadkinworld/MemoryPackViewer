@@ -48,7 +48,12 @@ namespace MemoryPackViewer
 
                 var obj = MemoryPackHelper.Deserialize(modelType, data);
 
-                var json = JsonSerializer.Serialize(obj, new JsonSerializerOptions { WriteIndented = true });
+                var options = new JsonSerializerOptions
+                {
+                    Encoder = System.Text.Encodings.Web.JavaScriptEncoder.UnsafeRelaxedJsonEscaping,
+                    WriteIndented = true
+                };
+                string json = JsonSerializer.Serialize(obj, options);
                 txtOutput.Text = json;
             }
             catch (Exception ex)

@@ -76,6 +76,7 @@
             txtOutput.ScrollBars = ScrollBars.Vertical;
             txtOutput.Size = new Size(607, 482);
             txtOutput.TabIndex = 6;
+            txtOutput.Font = new Font("Segoe UI", 10);
             // 
             // lblModel
             // 
