@@ -40,28 +40,28 @@
             // 
             comboModels.DropDownStyle = ComboBoxStyle.DropDownList;
             comboModels.FormattingEnabled = true;
-            comboModels.Location = new Point(168, 16);
+            comboModels.Location = new Point(138, 16);
             comboModels.Margin = new Padding(3, 4, 3, 4);
             comboModels.Name = "comboModels";
-            comboModels.Size = new Size(342, 28);
+            comboModels.Size = new Size(346, 28);
             comboModels.TabIndex = 1;
             // 
             // txtData
             // 
-            txtData.Location = new Point(168, 63);
+            txtData.Location = new Point(138, 63);
             txtData.Margin = new Padding(3, 4, 3, 4);
             txtData.Multiline = true;
             txtData.Name = "txtData";
             txtData.ScrollBars = ScrollBars.Vertical;
-            txtData.Size = new Size(342, 79);
+            txtData.Size = new Size(607, 79);
             txtData.TabIndex = 3;
             // 
             // btnDeserialize
             // 
-            btnDeserialize.Location = new Point(168, 153);
+            btnDeserialize.Location = new Point(138, 150);
             btnDeserialize.Margin = new Padding(3, 4, 3, 4);
             btnDeserialize.Name = "btnDeserialize";
-            btnDeserialize.Size = new Size(137, 40);
+            btnDeserialize.Size = new Size(167, 40);
             btnDeserialize.TabIndex = 5;
             btnDeserialize.Text = "Deserialize";
             btnDeserialize.UseVisualStyleBackColor = true;
@@ -69,37 +69,37 @@
             // 
             // txtOutput
             // 
-            txtOutput.Location = new Point(168, 213);
+            txtOutput.Location = new Point(138, 229);
             txtOutput.Margin = new Padding(3, 4, 3, 4);
             txtOutput.Multiline = true;
             txtOutput.Name = "txtOutput";
             txtOutput.ScrollBars = ScrollBars.Vertical;
-            txtOutput.Size = new Size(428, 332);
+            txtOutput.Size = new Size(607, 482);
             txtOutput.TabIndex = 6;
             // 
             // lblModel
             // 
             lblModel.AutoSize = true;
-            lblModel.Location = new Point(70, 23);
+            lblModel.Location = new Point(70, 24);
             lblModel.Name = "lblModel";
-            lblModel.Size = new Size(92, 20);
+            lblModel.Size = new Size(63, 20);
             lblModel.TabIndex = 0;
-            lblModel.Text = "انتخاب مدل : ";
+            lblModel.Text = "Model : ";
             // 
             // lblData
             // 
             lblData.AutoSize = true;
-            lblData.Location = new Point(12, 66);
+            lblData.Location = new Point(36, 66);
             lblData.Name = "lblData";
-            lblData.Size = new Size(150, 20);
+            lblData.Size = new Size(97, 20);
             lblData.TabIndex = 2;
-            lblData.Text = "داده به صورت باینری : ";
+            lblData.Text = "Binary Data : ";
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(683, 573);
+            ClientSize = new Size(787, 738);
             Controls.Add(txtOutput);
             Controls.Add(btnDeserialize);
             Controls.Add(txtData);
@@ -108,8 +108,8 @@
             Controls.Add(lblModel);
             Margin = new Padding(3, 4, 3, 4);
             MaximizeBox = false;
-            MaximumSize = new Size(701, 620);
-            MinimumSize = new Size(701, 620);
+            MaximumSize = new Size(805, 785);
+            MinimumSize = new Size(805, 785);
             Name = "Form1";
             Text = "MemoryPack Viewer";
             ResumeLayout(false);

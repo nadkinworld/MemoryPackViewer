@@ -16,11 +16,8 @@ It’s perfect for quickly inspecting serialized objects during debugging or rev
 
 ## 📸 Screenshots
 
-| Input View | Output View |
-|------------|-------------|
-| ![Input Screenshot](assets/input.png) | ![Output Screenshot](assets/output.png) |
+ ![Screenshot](assets/input.png) 
 
-> Place your screenshots in an `assets` folder inside the repo.
 
 ---
 
@@ -44,6 +41,6 @@ It’s perfect for quickly inspecting serialized objects during debugging or rev
 Clone the repository and build the solution:
 
 ```bash
-git clone https://github.com/YourUsername/MemoryPackViewer.git
+git clone https://github.com/nadkinworld/MemoryPackViewer.git
 cd MemoryPackViewer
 dotnet build
